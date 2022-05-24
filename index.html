@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Minecraft server</title>
-        <meta charset="uft-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="normalizesheet" type="text/css" href="normalize.css"
-    </head>
-    <body>
-        <header>
-            <nav>
-                <h1>
-                    MServer
-                </h1>
-                <ul>
-                    <a href="">Invitado</a>
-                    <a href="">Home</a>
-                    <a href="">Rangos Globales</a>
-                    <a href="">Crystal Survival - NUEVO!</a>
-                    <a href="">Survival</a>
-                    <a href="">Survival 2</a>
-                    <a href="">Skyblock</a>
-                    <a href="">Kindoms</a>
-                </ul>
-            </nav>
-        </header>
-        <article>
-            <div>
-                <a href="">TIENDA OFICIAL</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laudantium quaerat dolorum animi delectus, voluptate libero reprehenderit autem provident deserunt adipisci omnis quis inventore itaque quae veniam repellat? Eos, minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quis quam, magnam, inventore tenetur vero mollitia unde facere quisquam qui repudiandae placeat rem quas debitis nostrum commodi perferendis officia rerum.</p>
-            </div>
-            <div>
-                <a href="">TIENDA OFICIAL</a>
-                <a href="">Discord</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laudantium quaerat dolorum animi delectus, voluptate libero reprehenderit autem provident deserunt adipisci omnis quis inventore itaque quae veniam repellat? Eos, minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quis quam, magnam, inventore tenetur vero mollitia unde facere quisquam qui repudiandae placeat rem quas debitis nostrum commodi perferendis officia rerum.</p>
-            </div>
-        </article>
-        <aside>
-
-        </aside>
-        <footer>
-            <div>
-                
-            </div>
-            <div>
-                <p>© Copyright M Server. 2022 All Rights Reserved.</p>
-            </div>
-        </footer>
-    </body>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <h1 id="title">Random Survey</h1>
+    <p id="description">Thanks for ask this random questions.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input placeholder="only name" id="name" type="text" required /></label>
+        <label id="email-label">Email: <input placeholder="email adress" id="email" type="email" required  /></label>
+        <label id="number-label">Number of pokemons?(0 to 151): <input placeholder="first generation" id="number" type="number" min="0" max="151" /></label>
+        <label>Select your favoryte game genre
+          <select id="dropdown">
+          <option>action</option>
+          <option>aventure</option>
+          <option>role-playing</option>
+          <option>strategy</option>
+        </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>what do you prefiered?</label>
+        <label class="let-tipe"><input class="option-inline" type="radio" name="e-s" /> eat</label>
+        <label class="let-tipe"><input class="option-inline" type="radio" name="e-s" /> slepp</label>
+        <label class="let-tipe"><input class="option-inline" type="radio" name="e-s" /> shit</label>
+     </fieldset>
+      <fieldset>
+        <label>click only good movies</label>
+        <label class="let-tipe"><input class="option-inline" type="checkbox" value="1"> Fast and furius</label>
+        <label class="let-tipe"><input class="option-inline" type="checkbox" value="2"> Spiderman</label>
+        <label class="let-tipe"><input class="option-inline" type="checkbox" value="3"> Uncharted</label>
+        <label class="let-tipe"><input class="option-inline" type="checkbox" value="4"> Shingam</label>
+        <label class="let-tipe"><input class="option-inline" type="checkbox" value="5"> Stand of kiss</label>
+        <label class="let-tipe"><input class="option-inline" type="checkbox" value="6"> interstellar</label>
+        <label> the best movie and why it is
+          <textarea rows="3" cols="30" placeholder="..."></textarea>
+      </fieldset>
+      <input type="submit" value="Submit"/> 
+    </form>
+  </body>
 </html>
